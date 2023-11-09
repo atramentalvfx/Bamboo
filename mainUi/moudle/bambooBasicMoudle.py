@@ -20,6 +20,7 @@ def logIn(userName, passwd, host):
     '''
     try:
         token = gazu.log_in(userName, passwd)
+        
     except:
         return ['Bad UserName or Password Refill Again', 1]
     else:    
